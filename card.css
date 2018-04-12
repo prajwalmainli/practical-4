@@ -1,0 +1,36 @@
+.container{
+  background-color:lightgrey;
+  width:500px;
+  height:550px;
+  margin:5px;
+  padding: 40px;
+  float: left;
+  text-align: justify;
+  border-radius: 10px;
+  
+}
+li{
+  list-style-type: none;
+  display:inline;
+  padding: 20px;
+  color:blue;
+}
+
+
+
+li:hover{
+color:white;
+
+
+}
+@media (max-width:600px){
+  .container{
+    flex-direction:column;
+    width:400px;
+}
+
+
+
+body{
+  padding-left: 100px;
+}
